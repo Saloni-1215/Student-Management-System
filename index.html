@@ -3,57 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saloni Portfolio</title>
+    <title>Student Management</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- Navbar -->
-<header>
-    <h1>Saloni</h1>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
-</header>
+<h1>Student Management System</h1>
 
-<!-- About -->
-<section id="about">
-    <h2>About Me</h2>
-    <p>I am a frontend developer learning HTML, CSS, and JavaScript.</p>
-</section>
+<!-- Form -->
+<div class="form">
+    <input type="text" placeholder="Name">
+    <input type="text" placeholder="Course">
+    <button>Add Student</button>
+</div>
 
-<!-- Skills -->
-<section id="skills">
-    <h2>Skills</h2>
-    <div class="skills">
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>JavaScript</span>
-    </div>
-</section>
+<!-- Table -->
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Course</th>
+        <th>Action</th>
+    </tr>
 
-<!-- Projects -->
-<section id="projects">
-    <h2>Projects</h2>
-    <div class="projects">
-        <div class="project">Profile Card</div>
-        <div class="project">Landing Page</div>
-        <div class="project">Pricing UI</div>
-    </div>
-</section>
+    <tr>
+        <td>Saloni</td>
+        <td>B.Tech</td>
+        <td><button class="delete">Delete</button></td>
+    </tr>
 
-<!-- Contact -->
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Email: your@email.com</p>
-</section>
-
-<footer>
-    <p>© 2026 Saloni</p>
-</footer>
+</table>
 
 </body>
 </html>
