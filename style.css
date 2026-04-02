@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+}
+
+/* Form */
+.form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+input {
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background: #667eea;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Table */
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.delete {
+    background: red;
+}
