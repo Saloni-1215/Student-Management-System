@@ -21,13 +21,6 @@ It simulates a real-world system where users can manage student data through a f
 
 ---
 
-## 📂 Project Structure
-
-student-management/
-│── index.html  
-│── style.css  
-
----
 
 ## 📸 Preview
 A basic management dashboard with input fields for adding students and a table displaying student data with action buttons.
